@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get("/", (req,req)=>{
+app.get("/", (req, res)=>{
     res.send("Welcome");
 });// Forward slash means the context root of the application, or the url without anything after
 
