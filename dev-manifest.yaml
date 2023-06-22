@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: moses-api
 spec:
+   replicas: 1
    selector:
       matchLabels:
         app: moses-api
