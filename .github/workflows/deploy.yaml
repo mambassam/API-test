@@ -16,7 +16,8 @@ jobs:
   setup-build-publish-deploy:
     name: Setup, Build, Publish, and Deploy
     runs-on: ubuntu-latest
-    environment: development 
+    # Prototype changes go here:
+    environment: development
     permissions:
       contents: 'read'
       id-token: 'write'
